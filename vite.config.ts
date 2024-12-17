@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/vite-react-deploy/", //repo name here, or 404
+  base: "/", //repo name here, or 404, since it's a custom domain gotta use /
 })
